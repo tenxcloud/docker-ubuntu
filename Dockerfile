@@ -1,3 +1,3 @@
-FROM ubuntu:14.04
+FROM index.tenxcloud.com/tenxcloud/ubuntu:latest
 COPY sources.list /etc/apt/sources.list
 RUN apt-get update
